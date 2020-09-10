@@ -18,7 +18,7 @@ setInterval(function() {
 			}
 		});
 	});
-}, 5 * 1000 * 60) // 5 mins
+}, 10 * 1000 * 60) // 10 mins
 
 app.listen(process.env.PORT || 3001);
 
